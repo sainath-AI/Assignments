@@ -5,6 +5,8 @@ import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.app.AlertDialog;
+import android.content.DialogInterface;
 import android.os.Bundle;
 import android.widget.LinearLayout;
 import android.widget.Toast;
@@ -27,7 +29,7 @@ public class MainActivity extends AppCompatActivity  implements itemclicklistner
     }
     private void setRecyclerviewData(){
         DataAdapter dataAdapter= new DataAdapter(dataList, this);
-        GridLayoutManager linearLayoutManager= new GridLayoutManager(this,2);
+        LinearLayoutManager linearLayoutManager= new LinearLayoutManager(this);
         recyclerView.setLayoutManager(linearLayoutManager);
         recyclerView.setAdapter(dataAdapter);
 
@@ -49,6 +51,25 @@ public class MainActivity extends AppCompatActivity  implements itemclicklistner
 
     @Override
     public void onItemClicked(int position, Data data) {
-        Toast.makeText(MainActivity.this,"name "+data.getCompanyName() + "age "+ data.getAge(),Toast.LENGTH_SHORT).show();
-    }
+        AlertDialog alertDialog = new AlertDialog.Builder(this)
+                .setTitle("Hey this is the Data")
+                .setMessage(
+                        data.getCompanyName() + "\n"
+                                + data.getAge() + "\n"
+                        + data.getOccupation()
+
+                ).
+                        setPositiveButton("Ok", new DialogInterface.OnClickListener() {
+                            @Override
+                            public void onClick(DialogInterface dialog, int which) {
+                                dialog.dismiss();
+                            }
+                        }).
+                        setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
+                            @Override
+                            public void onClick(DialogInterface dialog, int which) {
+                                dialog.dismiss();
+                            }
+                        }).
+                        show();    }
 }
