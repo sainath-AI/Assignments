@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="search_your_tune">Search Your Tune</string>
+    <string name="fetch_data">Fetch Data</string>
+    <string name="search">Search</string>
+</resources>
