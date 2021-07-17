@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">RetrofitEvaluation</string>
+    <string name="country_city">Country/City</string>
+    <string name="show_response">Show Response</string>
+</resources>
