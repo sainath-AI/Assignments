@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="30dp"
+        android:layout_margin="25dp"
+        android:backgroundTint="@color/design_default_color_secondary_variant"
+        >
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Date:"
+                android:textSize="20sp"
+                />
+            <TextView
+                android:id="@+id/Date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:layout_toEndOf="@id/text1"
+                />
+            <TextView
+                android:id="@+id/text2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Positive:"
+                android:textSize="20sp"
+                android:layout_below="@id/text1"
+                />
+            <TextView
+                android:id="@+id/Positive"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:layout_below="@+id/text1"
+                android:layout_toEndOf="@+id/text2"
+
+                />
+            <TextView
+                android:id="@+id/text3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Negative:"
+                android:textSize="20sp"
+                android:layout_below="@id/text2"
+                />
+            <TextView
+                android:id="@+id/Negative"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:layout_below="@+id/text2"
+                android:layout_toEndOf="@+id/text3"
+
+                />
+            <TextView
+                android:id="@+id/text4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="HospitalziedCurrentlt:"
+                android:textSize="20sp"
+                android:layout_below="@id/text3"
+                />
+            <TextView
+                android:id="@+id/HospitalziedCurr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:layout_below="@+id/text3"
+                android:layout_toEndOf="@+id/text4"
+
+                />
+            <TextView
+                android:id="@+id/text5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="OnVentilator:"
+                android:textSize="20sp"
+                android:layout_below="@id/text4"
+                />
+            <TextView
+                android:id="@+id/OnVentilator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:layout_below="@+id/text4"
+                android:layout_toEndOf="@+id/text5"
+
+                />
+            <TextView
+                android:id="@+id/text6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Death:"
+                android:textSize="20sp"
+                android:layout_below="@id/text5"
+                />
+            <TextView
+                android:id="@+id/Death"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:layout_below="@+id/text5"
+                android:layout_toEndOf="@+id/text6"
+
+                />
+            <TextView
+                android:id="@+id/text7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DateCecked:"
+                android:textSize="20sp"
+                android:layout_below="@id/text6"
+                />
+            <TextView
+                android:id="@+id/DateChecked"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:layout_below="@+id/text6"
+                android:layout_toEndOf="@+id/text7"
+
+                />
+            <ImageView
+                android:id="@+id/cardview"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@drawable/delete"
+                android:layout_toEndOf="@id/text1"
+                android:layout_marginStart="250dp"
+                />
+
+
+        </RelativeLayout>
+
+
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
