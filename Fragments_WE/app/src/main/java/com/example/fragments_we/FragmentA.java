@@ -5,6 +5,7 @@ import android.os.Bundle;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
+import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -45,7 +46,7 @@ public class FragmentA extends Fragment {
 
     private void setadapter() {
         ANimalAdapeter aNimalAdapeter= new ANimalAdapeter(animals);
-        LinearLayoutManager linearLayoutManager =new LinearLayoutManager(getContext());
+        GridLayoutManager linearLayoutManager =new GridLayoutManager(getContext(),2);
         recyclerView.setLayoutManager(linearLayoutManager);
         recyclerView.setAdapter(aNimalAdapeter);
     }
