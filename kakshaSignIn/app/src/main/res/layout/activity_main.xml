@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#0583ea"
+        android:id="@+id/Rectangle"
+        android:paddingBottom="45dp"
+        android:src="@drawable/rectangle_ic"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/igVector"
+        android:src="@drawable/ic_vector__3_"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="18dp"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:id="@+id/login"
+        android:layout_marginTop="20dp"
+        android:layout_alignRight="@+id/Rectangle"
+        android:layout_marginRight="288dp"
+
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:id="@+id/email"
+        android:layout_alignTop="@+id/Rectangle"
+        android:paddingTop="150dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:id="@+id/password"
+        android:layout_alignTop="@+id/email"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Use PhOne Number"
+        android:textColor="#0583ea"
+        android:layout_alignTop="@+id/password"
+        android:textSize="22dp"
+        android:id="@+id/phone"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="85dp"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="login"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:paddingTop="10dp"
+        android:id="@+id/loginn"
+        android:layout_alignBottom="@+id/phone"
+        android:textColor="@color/black"
+        android:background="@drawable/reactangle2"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="280dp"
+        android:paddingBottom="10dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="forgot password ?"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="235dp"
+        android:layout_marginLeft="120dp"
+        android:textSize="18dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Or"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="175dp"
+        android:layout_marginLeft="180dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Continue with FaceBook"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/rectangle3"
+        android:paddingTop="12dp"
+        android:paddingBottom="12dp"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginBottom="100dp"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_vector__4_"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="115dp"
+        android:layout_marginLeft="60dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Continue With Google"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/reactangle4"
+        android:paddingTop="12dp"
+        android:paddingBottom="12dp"
+        android:paddingLeft="50dp"
+        android:paddingRight="40dp"
+        android:layout_marginLeft="65dp"
+        android:layout_marginBottom="35dp"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_vector__5_"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="53dp"
+        android:layout_marginLeft="80dp"
+        />
+
+
+</RelativeLayout>
