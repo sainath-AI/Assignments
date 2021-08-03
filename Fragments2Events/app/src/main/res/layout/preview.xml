@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Previwer">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:padding="12dp"
+        android:textColor="@color/purple_200"
+        android:id="@+id/tvTitle"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:padding="12dp"
+        android:textColor="@color/purple_200"
+        android:id="@+id/tvDIscrip"
+        /><TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="24dp"
+    android:textStyle="bold"
+    android:padding="12dp"
+    android:textColor="@color/purple_200"
+    android:id="@+id/tvStartDate"
+    />
+
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="24dp"
+    android:textStyle="bold"
+    android:padding="12dp"
+    android:textColor="@color/purple_200"
+    android:id="@+id/tvEndDate"
+    />
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="24dp"
+    android:textStyle="bold"
+    android:padding="12dp"
+    android:textColor="@color/purple_200"
+    android:id="@+id/tvStartTime"
+    />
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="24dp"
+    android:textStyle="bold"
+    android:padding="12dp"
+    android:textColor="@color/purple_200"
+    android:id="@+id/tvEndTime"
+    />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:padding="12dp"
+        android:textColor="@color/purple_200"
+        android:id="@+id/tvPrice"
+        />
+
+
+</LinearLayout>
